@@ -27,7 +27,7 @@ public class ProductController {
 	
 	/**
 	 */
-	@GetMapping("/product")
+	@GetMapping("/produto")
 	public String listProduct(Model model) {
 				
 		List<Product> listProduct = productService.findAll();
